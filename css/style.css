@@ -1,0 +1,713 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}/*uberaet ebanniy microsoft edge krestik*/
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;} 
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body{
+ background-image: url("../img/escheresque_ste.png");
+ font-family: Verdana;
+}
+
+.dws-menu{
+    border-radius: 40px;
+    background-color: white;
+ height: 8%;
+ width: 100%;
+ position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    border: 1px solid #000;
+}
+ul.dws-ul{
+ display: flex;
+ padding: 0;
+ justify-content: center;
+
+ font-weight: 700;
+}
+li.dws-li{
+    margin-top: 10px;
+ list-style: none;
+ padding: 10px;
+}
+li.dws-li a{
+ text-decoration: none;
+ font-size: 18px;
+ color: #000;
+ position: relative;
+ padding: 5px;
+}
+li.dws-li a i{
+ margin-right: 10px;
+}
+li.dws-li a::before{
+ content: '';
+ width: 0;
+ height: 3px;
+ background-color: #33bdf1;
+ position: absolute;
+ top: 90%;
+ left: 0;
+ transition: .5s;
+ mix-blend-mode: multiply;
+}
+li.dws-li a::after{
+ content: '';
+ width: 0;
+ height: 3px;
+ background-color: #ff2117;
+ position: absolute;
+ top: 90%;
+ right: 0;
+ transition: .5s;
+ mix-blend-mode: multiply;
+}
+li.dws-li:hover{
+ background-color: #e5eae8;
+}
+li.dws-li:hover a::before{
+ width: 50%;
+ transform: translateX(100%);
+}
+li.dws-li:hover a::after{
+ width: 50%;
+ transform: translateX(-100%);
+}
+li.dws-li a:hover{
+ color: #e62117;
+}
+.suntimedev{
+    font-family: "PointBold";
+    font-size: 40px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 11px;
+
+}
+@font-face {
+font-family: "PointBold"; 
+src: url("../fonts/PointBold.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+.img1{
+    width: 250px;
+    height: 250px;
+    margin-left: 1286px;
+    margin-top: -50px;
+}
+.img2{
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.img32{
+    margin-left: 80px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    background: url('../img/image3.jpg') center fixed;
+    width: 90%;
+    height: 150px;
+    border: 6px solid #fff;
+    box-shadow: 3px #fff;
+    border-radius: 8px;
+}
+
+.STDt{
+    line-height: 1.7;
+    margin-left: 80px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    background: url('../img/image3.jpg') center fixed;
+    width: 90%;
+    height: 150px;
+    border: 6px solid #fff;
+    box-shadow: 3px #fff;
+    border-radius: 8px;
+    color: white;
+    font-family: PointBold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.STDt:hover{ 
+    font-size: 82px;
+    text-decoration: underline;
+}
+
+.text3{
+        color: white;
+    font-family: PointBold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top: 60px;
+}
+.text3:hover{
+        color: white;
+    font-family: PointBold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top: 60px;
+}
+.bgspiska{
+    background: url('../img/5594016.jpg') 50% repeat;
+    border: 10px solid #000;
+    box-shadow: 0px 5px 15px 5px #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+
+}
+.spisok{
+    padding: 20px;
+    margin-left: 40px;
+    color: #525252;
+    font-size: 30px;
+    width: 70%;
+    font-weight: 700;
+    font-family: PointBold;
+    text-shadow: 0.3px 0.3px 0.6px #525252, 0 0 1em #525252, 0 0 0.2em #525252;
+}
+.spisok li:nth-child(10){
+        margin-left: 20px;
+    font-size: 30px;
+    width: 50%;
+    font-weight: 700;
+    color: #525252;
+    font-family: PointBold;
+    text-shadow: 0.3px 0.3px 0.6px #525252, 0 0 1em #525252, 0 0 0.2em #525252;
+}
+.image5{
+    width: 25%;
+    height: 100%;
+    margin-left: 1100px;
+    margin-top: -650px;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+.comandatxt{
+    font-size: 50px;
+    width: 70%;
+    color: white;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.formbg{
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+    background-color: #f9f9f9;
+    border: 8px solid #9e9e9e;
+    border-radius: 40px;
+    box-shadow: 0px 5px 15px 5px #000000;
+}
+.szimg{
+    margin-left: 500px;
+    margin-top: 1px;
+    width: 45%;
+    height: 99%;
+}
+.rgfoto{
+    font-size: 30px;
+    color: #454545;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #454545, 0 0 1em #454545, 0 0 0.2em #454545;
+    text-decoration: underline;
+    margin-top: -530px;
+    margin-left: 700px;
+}
+.box{
+    border: 2px solid darkgrey;
+    width: 300px;
+    height:50px;
+    margin-left: 680px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: PointBold;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box:hover{
+    border: 2px solid black;
+    width: 300px;
+    height:50px;
+    margin-left: 680px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: PointBold;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box:focus{
+    border: 3px solid black;
+    width: 300px;
+    height:50px;
+    margin-left: 680px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: PointBold;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.nametext{
+    font-size: 30px;
+    color: #454545;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #454545, 0 0 1em #454545, 0 0 0.2em #454545;
+    margin-left: 755px;
+    margin-top: 50px;
+}
+.nametext1{
+    font-size: 25px;
+    color: #454545;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #454545, 0 0 1em #454545, 0 0 0.2em #454545;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.leveltext{
+    font-size: 25px;
+    color: #454545;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #454545, 0 0 1em #454545, 0 0 0.2em #454545;
+    margin-left: 740px;
+}
+.leveltext1{
+    font-size: 25px;
+    color: #787878;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #787878, 0 0 1em #787878, 0 0 0.2em #787878;
+    margin-left: 670px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+#qwe {
+  transform:scale(2);
+  opacity:0.9;
+  cursor:pointer;
+}
+.leveltext2{
+    font-size: 25px;
+    color: #787878;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #787878, 0 0 1em #787878, 0 0 0.2em #787878;
+    margin-left: 5px;
+    line-height: 1.5;
+}
+.sbmbutton{
+    font-size: 25px;
+    background-color: #c2c2c2;
+    color: #363636;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #363636, 0 0 1em #363636, 0 0 0.2em #363636;
+    margin-left: 730px;
+    line-height: 1.5;
+    margin-top: 7px;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.sbmbutton:hover{
+    font-size: 25px;
+    background-color: #c2c2c2;
+    color: #363636;
+    font-family: PointBold;
+    text-shadow: 1px 1px 2px #363636, 0 0 1em #363636, 0 0 0.2em #363636;
+    margin-left: 730px;
+    line-height: 1.5;
+    margin-top: 7px;
+    border: 4px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+p:hover{
+    text-decoration: underline;
+}
+.image7{
+    width: 25%;
+    height: 120%;
+    margin-left: -850px;
+    margin-top: -560px;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.image8{
+    width: 20%;
+    height: 100%;
+    margin-left: 720px;
+    margin-top: -510px;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.under{
+    margin-top: 100px ;
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    text-align: center;
+    border-radius: 2px;
+    border-top: 5px solid #383838;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 100px;
+}
+.hoverparticle1{
+    height: 45%;
+    width: 25%;
+    float: right;
+    opacity: 1;
+   margin-left:1200px;
+}
+.hoverparticle1:hover{
+    height: 45%;
+    width: 25%;
+    float: right;
+    opacity: 1;
+   margin-left:1200px;
+}
+.unitytext{
+        color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: right;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: left ;
+    padding-left: 20px;
+
+}
+.unitytext:hover{
+        color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: right;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: left ;
+    padding-left: 20px;
+    opacity:1;
+    text-decoration: underline;
+
+}
+ .container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right:30px;
+
+  }
+
+  .unityicon{
+    height: 25%;
+    width: 35%;
+    float: right;
+    padding-left: 20px;
+}
+.button1{
+    margin-top: 10px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 250px;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+}
+ .container2 {
+    display: flex;
+    justify-content: left;
+    padding-right:30px;
+    padding-bottom: 10
+
+  }
+
+  .pythontext{
+        color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    padding-left: 20px;
+    width: 680px;
+
+}
+.pythontext:hover{
+        color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    padding-left: 20px;
+    text-decoration: underline;
+    width: 680px;
+
+}
+.hoverparticle2{
+   height: 30%;
+    width: 25%;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+  .pythonicon{
+    height: 100px;
+    width: 120px;
+    float: left;
+    padding-right: 20px;
+}
+.button2{
+    margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+ display: inline-block ;
+ margin-left: 80px;
+}
+.container3{
+        border: 10px solid #000;
+    box-shadow: 0px 5px 15px 5px #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background: url('../img/bg2.jpg') 100% repeat;
+    margin-top: 20px;
+    padding-bottom:30px;
+    height: 770px;
+    display: flex;
+}
+.blendertop{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+        font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.dw{
+    width: 50%;
+    height: 22%;
+    margin-left: 140px;
+    border-radius: 10px;
+    border: 10px solid grey;
+    box-shadow: 0px 5px 15px 5px #000000;
+}
+.blendertext{
+    width: 450px;
+    margin-left:80px;
+            color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+}
+.blendertext:hover{
+    width: 450px;
+    margin-left:80px;
+            color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+    text-decoration: underline;
+}
+.button3{
+        margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+  margin-left: 140px;
+}
+.csharp{
+padding-top: 20px;
+}
+.csharptop{
+padding-left:200px;
+        font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+
+}
+.csharpphoto{
+    margin-left: 180px;
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+    border: 10px solid grey;
+    box-shadow: 0px 5px 15px 5px #000000;
+    padding-top: 10px;
+}
+.csharptext{
+    width: 450px;
+    margin-left:80px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+}
+.csharptext:hover{
+    width: 450px;
+    margin-left:80px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+    text-decoration: underline;
+}
+.htmlcss{
+padding-top: 20px;
+}
+.htmlcsstop{
+padding-left:150px;
+        font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+
+}
+.htmlcssphoto{
+    margin-left: 180px;
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    border: 10px solid grey;
+    box-shadow: 0px 5px 15px 5px #000000;
+    padding-top:10px;
+}
+.htmlcsstext{
+    width: 450px;
+    margin-left:80px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+}
+.htmlcsstext:hover{
+    width: 450px;
+    margin-left:80px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-top:20px;
+    text-decoration: underline;
+}
+
+.button4{
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+  float: center;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.container4{
+        border: 10px solid #000;
+    box-shadow: 0px 5px 15px 5px #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background: url('../img/bg2.jpg') 100% repeat;
+    margin-top: 20px;
+    padding-bottom:30px;
+    display: flex;
+}
+.arduinotext{
+            color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    padding-left: 20px;
+}
+.arduinophoto{
+        height: 30%;
+    width: 15%;
+    display: grid;
+    margin-left: 730px
+}
+.button5{
+          border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+  float: center;
+  margin-top: 20px;
+}
+
+
+
+
