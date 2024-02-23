@@ -424,6 +424,32 @@ p:hover{
     text-decoration: underline;
 
 }
+.gittext{
+    margin-bottom: : -100px;
+        color: #383838;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: center ;
+    padding-left: 20px;
+
+}
+.gitdiv{
+    padding-top: 550px;
+}
+.gittext:hover{
+        color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: center ;
+    padding-left: 20px;
+    opacity:1;
+    text-decoration: underline;
+
+}
  .container {
     display: flex;
     align-items: right;
@@ -437,6 +463,13 @@ p:hover{
     width: 35%;
     float: right;
     padding-left: 20px;
+}
+ .giticon{
+    height: 10%;
+    width: 35%;
+    padding-left: 20px;
+    display: grid;
+    float: right;
 }
 .button1{
     margin-top: 10px;
@@ -454,10 +487,8 @@ p:hover{
 }
  .container2 {
     display: flex;
-    justify-content: left;
     padding-right:30px;
-    padding-bottom: 10
-
+    padding-bottom: 10px;
   }
 
   .pythontext{
@@ -667,7 +698,33 @@ padding-left:150px;
   font-family: PointBold;
   float: center;
   margin-top: 20px;
+}
+.button5{
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+  float: center;
+  margin-top: 20px;
   margin-right: 200px;
+}
+.button6{
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04AA6D;
+  font-size: 20px;
+  font-family: PointBold;
+  float: center;
+  margin-top: 20px;
 }
 .container4{
         border: 10px solid #000;
