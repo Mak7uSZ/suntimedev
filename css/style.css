@@ -22,7 +22,7 @@ html,body{
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-     min-width: 1800px;
+     min-width: 1800 px;
       max-width: 1920px;
 }
 input,button,textarea{font-family:inherit;}
@@ -552,7 +552,6 @@ p:hover{
     background: url('../img/bg2.jpg') 100% repeat;
     margin-top: 20px;
     padding-bottom:30px;
-    height: 770px;
     display: flex;
     width: 97%;
 }
