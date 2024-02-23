@@ -22,6 +22,8 @@ html,body{
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+     min-width: 1024px;
+      max-width: 1920px;
 }
 input,button,textarea{font-family:inherit;}
 
@@ -551,7 +553,7 @@ p:hover{
     padding-bottom:30px;
     height: 770px;
     display: flex;
-    width: 1750px;
+    width: 97%;
 }
 .blendertop{
     padding-left: 150px;
@@ -646,6 +648,8 @@ padding-left:200px;
     text-decoration: underline;
 }
 .htmlcss{
+    width: 100%;
+    height: 100%;
 padding-top: 20px;
 }
 .htmlcsstop{
