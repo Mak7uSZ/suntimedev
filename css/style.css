@@ -39,6 +39,10 @@ body{
  background-image: url("../img/escheresque_ste.png");
  font-family: Verdana;
 }
+header {
+    position: relative;
+    z-index: 1;
+}
 
 .dws-menu{
     border-radius: 40px;
@@ -768,6 +772,55 @@ padding-left:150px;
   font-family: PointBold;
   float: center;
   margin-top: 20px;
+}
+.basketbalbg {
+    position: relative;
+    width: 80%; /* Adjust width as needed */
+    height: 80%; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important;
+}
+
+.basketbalphoto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/basketbalphoto.jpg"); /* Replace with your background image */
+    background-size: cover;
+    filter: blur(8px); /* Apply blur effect by default */
+    transition: filter 0.5s;
+        display: flex; /* Use flexbox to center content */
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important;
+}
+
+.basketbalbg:hover .basketbalphoto {
+    filter: none; /* Clear the blur effect on hover */
+}
+
+.basketbaltext1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust text color */
+    z-index: 2;
+}
+.basketbaltext2{
+        line-height: 1.7;
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 90%;
+    height: 150px;
+    color: black;
+    font-family: PointBold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
 }
 
 
