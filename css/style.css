@@ -779,23 +779,25 @@ padding-left:150px;
     height: 80%; /* Adjust height as needed */
     overflow: hidden;
     display: flex; /* Use flexbox to center content */
-    justify-content: center !important; /* Center horizontally */
-    align-items: center !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .basketbalphoto {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 20%; /* Изменил на 20% для выравнивания справа */
+    width: 80%; /* Изменен ширина на 80% чтобы оставить место для блоков слева */
     height: 100%;
-    background-image: url("../img/basketbalphoto.jpg"); /* Replace with your background image */
+    background-image: url("../img/basketbalphoto.jpg"); /* Замените на ваше изображение */
     background-size: cover;
+    background-position: top right; /* Показываем верхнюю правую часть фото */
     filter: blur(8px); /* Apply blur effect by default */
     transition: filter 0.5s;
-        display: flex; /* Use flexbox to center content */
-    justify-content: center !important; /* Center horizontally */
-    align-items: center !important;
+    display: flex; /* Use flexbox to center content */
+    align-items: center;
+    z-index: -2;
 }
 
 .basketbalbg:hover .basketbalphoto {
@@ -805,13 +807,25 @@ padding-left:150px;
 .basketbaltext1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: black; /* Adjust text color */
     z-index: 2;
+    border: 3px solid #b88c88;
+     background-color: rgba(209, 174, 171, 0.7);
+     width: 600px;
+     height: 250px;
+     text-align: center;
+    color: black;
+    font-family: PointBold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    justify-content: center;
+    z-index: -1;
 }
-.basketbaltext2{
-        line-height: 1.7;
+.basketbaltext2 {
+    line-height: 1.7;
     margin-left: 80px;
     margin-top: 60px;
     width: 90%;
@@ -822,7 +836,46 @@ padding-left:150px;
     text-align: center;
     text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
 }
+.scorephoto{
+    margin: auto;
+}
+.video2{
+    margin: auto;
+}
+video {
+    display: block;
+}
+.containervideo {
+    display: flex;
+}
 
+.contentvideo {
+    flex: 1;
+    padding: 20px;
+}
 
+.video2 {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    margin-top: -350px; /* Выравнивание по правому краю */
+}
+.video3 {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Выравнивание по правому краю */
+}
 
-
+video,
+iframe {
+    max-width: 100%;
+}
+.lebrontext{
+                color: #383838;
+    font-family: PointBold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
