@@ -879,3 +879,152 @@ iframe {
     padding-left: 20px;
     margin-bottom: 20px;
 }
+.maksymbg{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    padding-top: 2%;
+}
+.maksymGphoto{
+       width: 60rem;
+  height: 30rem;
+  background-color: #48abe0;
+  border-radius: 30rem 30rem 0 0;
+  margin:auto;
+
+}
+.boutmetoptext{
+    margin-top:40px;
+            color: black;
+    font-family: PointBold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.maksymbg2{
+    width: 100%;
+    height: 100%;
+    background-color: #423433;
+    padding-top: 2%;
+}
+.boutmetext{
+    margin-top:40px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+ .container21 {
+    display: flex;
+    padding-right:30px;
+    padding-bottom: 10px;
+  }
+  .personaliatext{
+          color: white;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: center ;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+ .meicon{
+    height: 45%;
+    width: 35%;
+    padding-left: 20px;
+    display: grid;
+    float: right;
+}
+.under2{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    text-align: center;
+    border-radius: 2px;
+    border-top: 5px solid #383838;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 100px;
+}
+.button10{
+    height: 165px;
+    width: 300px;
+        margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url("../img/insta.png"); 
+  font-size: 20px;
+  font-family: PointBold;
+  margin-left: 140px;
+  background-size: contain;
+  border-radius: 30px;
+}
+
+.button11{
+    height: 165px;
+    width: 240px;
+        margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url("../img/Youtube_logo.png"); 
+  font-size: 20px;
+  font-family: PointBold;
+  margin-left: 140px;
+  background-size: contain;
+  border-radius: 30px;
+}
+.button12{
+   height: 165px;
+    width: 165px;
+        margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url("../img/discord.png"); 
+  font-size: 20px;
+  font-family: PointBold;
+  margin-left: 140px;
+  background-size: contain;
+  border-radius: 30px;
+}
+.button13{
+   height: 165px;
+    width: 165px;
+        margin-top: 15px;
+      border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url("../img/telegram.jpg"); 
+  font-size: 20px;
+  font-family: PointBold;
+  margin-left: 200px;
+  background-size: contain;
+  border-radius: 30px;
+}
+.ds{
+              color: white;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: center ;
+    padding-left: 245px;
+    line-height: 1.5;
+}
