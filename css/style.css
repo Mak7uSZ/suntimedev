@@ -888,7 +888,9 @@ iframe {
 .maksymGphoto{
        width: 60rem;
   height: 30rem;
-  background-color: #48abe0;
+  background-image: url("../img/ya2.jpg");
+  background-position: center;
+  background-size: contain;
   border-radius: 30rem 30rem 0 0;
   margin:auto;
 
@@ -903,7 +905,7 @@ iframe {
 }
 .maksymbg2{
     width: 100%;
-    height: 100%;
+    height: 150%;
     background-color: #423433;
     padding-top: 2%;
 }
@@ -1027,4 +1029,20 @@ iframe {
     float: center ;
     padding-left: 245px;
     line-height: 1.5;
+}
+.container31{
+    display: flex;
+}
+.mother{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 50%;
+}
+.mother2{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
