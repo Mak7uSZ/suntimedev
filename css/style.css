@@ -934,7 +934,7 @@ iframe {
 }
  .meicon{
     height: 45%;
-    width: 35%;
+    width: 25%;
     padding-left: 20px;
     display: grid;
     float: right;
@@ -1045,4 +1045,119 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+.schoolbg{
+    width:100%;
+    background-color: #E5E1D7;
+    height: 315%;
+}
+.schoolcontainer{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+}
+.RDCname{
+        margin-top:40px;
+            color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    float: left;
+    margin-left: 20px;
+}
+.RDCphoto{
+    grid-column: 1 / 2;
+    margin-top: 10px;
+    background-image: url("../img/rdc.jpeg");
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+.RDCtext{
+    grid-column: 2 / 3;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -200px;
+    margin-right: 300px;
+        color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.arrowdown{
+    margin: auto;
+    background-image: url("../img/arrowdown.png");
+    width:281px;
+    height: 300px;
+    background-size: contain; 
+}
+
+.schoolcontainer2{
+ display: grid;
+grid-template-columns: 2fr 1fr;; /* Изменено с 1fr 1fr на 1fr 2fr */
+justify-items:end;
+}
+.Wname{
+        margin-top:40px;
+            color: black;
+    font-family: PointBold;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 20px
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.Wphoto{
+    grid-column: 2 / 3;
+    margin-top: 10px;
+    background-image: url("../img/W.png");
+    width: 400px;
+    height: 350px;
+    text-align: right;
+    background-size: contain;
+}
+.Wtext{
+    margin-top: 50px;
+    grid-column: 1 / 2;
+    font-size: 30px;
+    text-align: right;
+    color: black;
+    font-family: PointBold;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    margin-right: -200px;
+    margin-left: 300px;
+}
+.rapportext{
+    text-align: center;
+    margin-top:100px;
+    color: black;
+    font-family: PointBold;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+}
+.rapportphoto{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background-image: url("../img/Rapport.jpg");
+    width: 80%;
+    height: 27.4%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    box-shadow: 3px #fff;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.leadershiptext{
+    margin-top:50px;
+    color: #383838;
+    font-family: PointBold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em lightgrey, 0 0 0.2em lightgrey;
+    padding-left: 20px;
 }
